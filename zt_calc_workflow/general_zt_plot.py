@@ -37,7 +37,7 @@ import argparse
 
 import sys
 
-sys.path.append(r"C:/Users/mbdxpah2/VS_code_work/ZT-Calc-Workflow")
+sys.path.append(r"C:/PATH_TO_PACKAGE/ZT-Calc-Workflow")
 
 from zt_calc_workflow.amset import read_amset_csv
 from zt_calc_workflow.dataset import zt_dataset_from_data, dataset_to_2d
