@@ -18,10 +18,12 @@ import pandas as pd
 # CSV files
 # ---------
 
-def read_validate_csv(file_path, header_map=None, known_headers=None,
-                      known_headers_required=False):
-    """ Read a CSV file into a Pandas DataFrame and optionally update headers
-    with header_map and check headers against known_headers. """
+
+def read_validate_csv(
+    file_path, header_map=None, known_headers=None, known_headers_required=False
+):
+    """Read a CSV file into a Pandas DataFrame and optionally update headers
+    with header_map and check headers against known_headers."""
 
     df = pd.read_csv(file_path)
 
